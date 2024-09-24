@@ -51,8 +51,8 @@ fig, ax = plt.subplots(figsize=(20, 20))
 ax.hist(filtered_df['median_house_value'], bins = 30)
 
 ax.set_title('Histogram of Median House Value', fontsize = 16)
-ax.set_xlable('Median House Value', fontsize = 12)
-ax.set_ylable('Frequency', fontsize = 12)
+ax.set_xlabel('Median House Value', fontsize = 12)
+ax.set_ylabel('Frequency', fontsize = 12)
 
 
 st.pyplot(fig)
